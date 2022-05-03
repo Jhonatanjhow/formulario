@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>cadastro</title>
+</head>
+<body>
+    <div>
+     <h1 id="checkbox">Cadastro Genin</h1>
+        <p id="checkbox"><strong>Complete suas informações</strong></p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" nome="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" nome="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset class="grupo">
+
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" id="email" required>
+         </div>
+            <div class="campo">
+           <label><strong>Escolha seu clã</strong></label>
+        <input type="radio" nome=naruto value="uzumaki">uzumaki
+    
+             <label>
+         <input type="radio" nome=sashuke value="uchiha">uchiha
+    </label>
+
+    <label>
+        <input type="radio" nome="outros" value="outros">outros
+        </label>
+        </div>
+
+        <div class="campo">
+            <label><strong>Qual?</strong></label>
+            <input type="text" nome="Qual?" id="Qual">
+        </div>
+
+        <div class="campo">
+            <label for="Nível"><strong>Nível</strong></label>
+            <select id="Nível">
+            <option value="Escolha">Selecione</option>
+            <option value="Fácil">Fácil</option>
+            <option value="Médio">Médio</option>
+            <option value="Difícil">Difícil</option>
+        </select>
+        </div>
+
+        <fieldset>
+            <div id="checkbox">
+            <label><strong>Aldeias</strong></label>
+            <input type="checkbox" id="aldeia" nome="aldeia" value="aldeia">
+            <label for="Aldeia">Folha</label>
+            <input type="checkbox" id="aldeia" nome="aldeia" value="aldeia">
+            <label for="Aldeia">Areia</label>
+            <input type="checkbox" id="aldeia" nome="aldeia" value="aldeia">
+            <label for="Aldeia">Nuvem</label>
+            <input type="checkbox" id="aldeia" nome="aldeia" value="aldeia">
+            <label for="aldeia">Névoa</label>
+            <input type="checkbox" id="aldeia" nome="aldeia" value="aldeia">
+            <label for="aldeia">Pedra</label>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label><strong>Sugestão</strong></label>
+            <textarea row="6" style="width: 16cm;" id="sugestão" nome="Sugestão"></textarea>
+        </div>
+
+        <button class="button" type="submit">concluir</button>
+    </form>
+<h1>Jhonatan da Conceição Silva</h1>
+</body>
+</html>
